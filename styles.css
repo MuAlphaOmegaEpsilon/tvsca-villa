@@ -1,17 +1,70 @@
 * {
-  font-family: sans-serif;
+	color: #ffc000;
+	margin: 0;
+	font-family: Geosans;
+	scrollbar-width: 0;
+}
+
+html {
+	overflow-x: hidden; /* Remove horizontal scrollbar */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+	display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22380C;
+	box-shadow: inset 0 0 2px black;
+  border-radius: 5px;
 }
 
 body {
-  background-color: #22380c;
-  width: 100%;
-  height: 100%;
+	background-color: #1C2E0D;
+	background-image: url(crossed-leaves.svg);
+	background-size: 25px 25px;
+	width: 100vw;
+	height: 100vh;
 }
 
-p {
-  width: 100%;
-  color: #dab500;
-  font-size: 4em;
-  text-align: center;
-  margin: auto;
+page {
+	position: relative;
+	float: left;
+	width: 100vw;
+	height: 100vh;
+}
+
+title {
+	display: block;
+	font-family: OptimusPrinceps;
+	letter-spacing: 0.1em;
+}
+
+.olive-tree-background {
+	background-image: url(olive-tree.svg);
+	background-size: 100vmin;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+/* https://www.dafont.com/optimusprinceps.font */
+@font-face {
+	font-family: OptimusPrinceps;
+	src: url(fonts/OptimusPrinceps.ttf);
+}
+
+/* https://www.dafont.com/it/geo-sans-light.font */
+@font-face {
+	font-family: Geosans;
+	src: url(fonts/GeosansLight.ttf);
+}
+
+/* https://www.dafont.com/it/romanserif.font */
+@font-face {
+	font-family: RomanSerif;
+	src: url(fonts/RomanSerif.ttf);
 }
