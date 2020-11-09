@@ -1,0 +1,13 @@
+name: HTML linting
+on: [push]
+
+jobs:
+  linters:
+    name: htmlhint
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-hub/stylelint@master
+      - run: sudo npm install -g htmlhint
+      - run: htmlhint *.html
