@@ -38,9 +38,16 @@ page {
 	height: 100vh;
 }
 
-title {
+text {
 	display: block;
+	font-family: Geosans;
+	font-size: 6vw;
+}
+
+text.title {
+	width: calc(100vw - 25vh);
 	font-family: OptimusPrinceps;
+	font-size: 10vw;
 	letter-spacing: 0.1em;
 }
 
