@@ -24,9 +24,6 @@ html {
 }
 
 body {
-	background-color: #1C2E0D;
-	background-image: url(crossed-leaves.svg);
-	background-size: 25px 25px;
 	width: 100vw;
 	height: 100vh;
 }
@@ -36,6 +33,12 @@ page {
 	float: left;
 	width: 100vw;
 	height: 100vh;
+}
+
+page:first-child {
+	background-color: #1C2E0D;
+	background-image: url(crossed-leaves.svg);
+	background-size: 25px 25px;
 }
 
 text {
