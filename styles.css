@@ -13,7 +13,8 @@ html {
 	width: 10px;
 }
 
-::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
 	display: none;
 }
 
