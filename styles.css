@@ -51,20 +51,3 @@ title {
 	background-position: bottom left;
 }
 
-/* https://www.dafont.com/optimusprinceps.font */
-@font-face {
-	font-family: OptimusPrinceps;
-	src: url(fonts/OptimusPrinceps.ttf);
-}
-
-/* https://www.dafont.com/it/geo-sans-light.font */
-@font-face {
-	font-family: Geosans;
-	src: url(fonts/GeosansLight.ttf);
-}
-
-/* https://www.dafont.com/it/romanserif.font */
-@font-face {
-	font-family: RomanSerif;
-	src: url(fonts/RomanSerif.ttf);
-}
