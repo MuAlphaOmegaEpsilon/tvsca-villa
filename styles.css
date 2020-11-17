@@ -2,11 +2,11 @@
 	color: #ffc000;
 	margin: 0;
 	font-family: Geosans;
-	scrollbar-width: 0;
 }
 
 html {
 	overflow-x: hidden; /* Remove horizontal scrollbar */
+	overflow-y: overlay; /* Enable transparent scrollbar background */
 }
 
 ::-webkit-scrollbar {
