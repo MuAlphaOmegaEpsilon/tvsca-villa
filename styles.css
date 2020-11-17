@@ -28,6 +28,10 @@ body {
 	height: 100vh;
 }
 
+page * {
+	position: absolute; /* All the content inside a page has absolute positioning */
+}
+
 page {
 	position: relative;
 	float: left;
