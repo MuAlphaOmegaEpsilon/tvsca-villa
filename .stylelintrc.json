@@ -1,7 +1,9 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
+	"color-hex-case": "upper",
+	"font-family-no-missing-generic-family-keyword": [ true, { "ignoreFontFamilies": [ "Geosans", "OptimusPrinceps" ] } ],
 	"indentation": "tab",
-	"color-hex-case": "upper"
+	"selector-type-no-unknown": [ true,  { "ignoreTypes": [ "page" ] } ]
   }
 }
